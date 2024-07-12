@@ -160,7 +160,7 @@
             ctx.fillStyle = color;
             ctx.translate(point.x, point.y);
             ctx.scale(scale, scale);
-            // ctx.moveTo(0, 0);
+            ctx.moveTo(0, 0);
     	    // ctx.lineTo(15, 15);
     	    // ctx.lineTo(130, 15);
             ctx.stroke();
@@ -171,6 +171,8 @@
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen !", 28, 10);
             ctx.restore();
+
+            
         },
         clear: function() {
             var ctx = this.tree.ctx, cirle = this.cirle;
