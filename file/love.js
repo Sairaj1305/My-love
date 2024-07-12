@@ -160,9 +160,9 @@
             ctx.fillStyle = color;
             ctx.translate(point.x, point.y);
             ctx.scale(scale, scale);
-            ctx.moveTo(0, 0);
-    	    ctx.lineTo(15, 15);
-    	    ctx.lineTo(130, 15);
+            // ctx.moveTo(0, 0);
+    	    // ctx.lineTo(15, 15);
+    	    // ctx.lineTo(130, 15);
             ctx.stroke();
 
             ctx.moveTo(0, 0);
